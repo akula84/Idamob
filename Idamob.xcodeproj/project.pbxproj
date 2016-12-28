@@ -1,0 +1,1055 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BBC5D931C6F11CD37D1F1BF /* libPods-Ccsteam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F62FD1441C4C28D3C06848 /* libPods-Ccsteam.a */; };
+		830769DB1E0BD0B800628E50 /* RCValutaViewController_Private.h in Sources */ = {isa = PBXBuildFile; fileRef = 830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */; };
+		830769DE1E0BD11300628E50 /* RCWeaterViewController+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769DD1E0BD11300628E50 /* RCWeaterViewController+TextField.m */; };
+		830769E11E0BDA9700628E50 /* RCWeaterViewController+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769E01E0BDA9700628E50 /* RCWeaterViewController+Tap.m */; };
+		830769E61E0BDE1B00628E50 /* RCGetWeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769E41E0BDE1B00628E50 /* RCGetWeater.m */; };
+		83076A0E1E0BFAA600628E50 /* RCWeaterViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 83076A0D1E0BFAA600628E50 /* RCWeaterViewController+UI.m */; };
+		832D1D901D081F0B00E12FF1 /* API+Creating.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7C1D081F0B00E12FF1 /* API+Creating.m */; };
+		832D1D911D081F0B00E12FF1 /* API+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7D1D081F0B00E12FF1 /* API+File.m */; };
+		832D1D921D081F0B00E12FF1 /* API+ReplyHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7E1D081F0B00E12FF1 /* API+ReplyHandling.m */; };
+		832D1D931D081F0B00E12FF1 /* API+RequestProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7F1D081F0B00E12FF1 /* API+RequestProgress.m */; };
+		832D1D941D081F0B00E12FF1 /* API+TokenExpired.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D801D081F0B00E12FF1 /* API+TokenExpired.m */; };
+		832D1D951D081F0B00E12FF1 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D821D081F0B00E12FF1 /* API.m */; };
+		832D1D961D081F0B00E12FF1 /* CachingAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D851D081F0B00E12FF1 /* CachingAPI.m */; };
+		832D1D971D081F0B00E12FF1 /* DeleteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D871D081F0B00E12FF1 /* DeleteAPI.m */; };
+		832D1D981D081F0B00E12FF1 /* GetAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D891D081F0B00E12FF1 /* GetAPI.m */; };
+		832D1D991D081F0B00E12FF1 /* PaginationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D8B1D081F0B00E12FF1 /* PaginationAPI.m */; };
+		832D1D9A1D081F0B00E12FF1 /* PostAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D8D1D081F0B00E12FF1 /* PostAPI.m */; };
+		832D1D9B1D081F0B00E12FF1 /* PutAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D8F1D081F0B00E12FF1 /* PutAPI.m */; };
+		832D1DA41D081FD400E12FF1 /* AWMissedProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DA11D081FD400E12FF1 /* AWMissedProperties.m */; };
+		832D1DB11D081FDE00E12FF1 /* AWModel+DictionaryToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DA61D081FDE00E12FF1 /* AWModel+DictionaryToObject.m */; };
+		832D1DB21D081FDE00E12FF1 /* AWModel+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DA71D081FDE00E12FF1 /* AWModel+Mapping.m */; };
+		832D1DB31D081FDE00E12FF1 /* AWModel+ObjectToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DA81D081FDE00E12FF1 /* AWModel+ObjectToDictionary.m */; };
+		832D1DB41D081FDE00E12FF1 /* FileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DAC1D081FDE00E12FF1 /* FileModel.m */; };
+		832D1DB51D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DAE1D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m */; };
+		832D1DB61D081FDE00E12FF1 /* NSString+AWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DB01D081FDE00E12FF1 /* NSString+AWUtils.m */; };
+		833DAFA41E0BBE2E00F335B6 /* RCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DAFA31E0BBE2E00F335B6 /* RCRouter.m */; };
+		833DAFA81E0BC00A00F335B6 /* RCValutaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */; };
+		833DAFAA1E0BC0C300F335B6 /* RCWeaterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833DAFA91E0BC0C300F335B6 /* RCWeaterViewController.storyboard */; };
+		834D80E61CFD332100525CEC /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D80E51CFD332100525CEC /* UIColor+RCColor.m */; };
+		834D80E91CFD338A00525CEC /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D80E81CFD338A00525CEC /* NSObject+Utils.m */; };
+		834F0E9F1E12A52500106906 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F0E9D1E12A52500106906 /* XMLDictionary.m */; };
+		834F0EA51E12A75A00106906 /* RCValuta+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F0EA21E12A75A00106906 /* RCValuta+CoreDataClass.m */; };
+		834F0EA61E12A75A00106906 /* RCValuta+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F0EA41E12A75A00106906 /* RCValuta+CoreDataProperties.m */; };
+		836007B21E0B7FA100B3355E /* NSObject+SingletonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 836007B11E0B7FA100B3355E /* NSObject+SingletonObject.m */; };
+		836007B61E0B7FF100B3355E /* AppProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 836007B51E0B7FF100B3355E /* AppProtection.m */; };
+		838541981E0CCC7B0053A0FD /* CcsteamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838541971E0CCC7B0053A0FD /* CcsteamTests.m */; };
+		83C8423E1D0559150051B007 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C8423D1D0559150051B007 /* UIViewController+Utils.m */; };
+		842933A41CB681AE001198DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842933A31CB681AE001198DE /* main.m */; };
+		842933A71CB681AE001198DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842933A61CB681AE001198DE /* AppDelegate.m */; };
+		842933B01CB681AF001198DE /* Recity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 842933AE1CB681AF001198DE /* Recity.xcdatamodeld */; };
+		842933B21CB681AF001198DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842933B11CB681AF001198DE /* Assets.xcassets */; };
+		842933B51CB681AF001198DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842933B31CB681AF001198DE /* LaunchScreen.storyboard */; };
+		842CDC2D1CB6CEEF0027543E /* RCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 842CDC2C1CB6CEEF0027543E /* RCConstants.m */; };
+		84619DAD1CC7B7D500EEBE50 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84619DAC1CC7B7D500EEBE50 /* Reachability.m */; };
+		C72C53A11CC0C4DE00916668 /* UIViewController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C72C539C1CC0C4DE00916668 /* UIViewController+Storyboard.m */; };
+		C72C53E11CC4C53D00916668 /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = C72C53E01CC4C53D00916668 /* NSObject+ClassName.m */; };
+		C7E750FA1CC511F700556C6C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E750F91CC511F700556C6C /* Security.framework */; };
+		C7E750FC1CC511FF00556C6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E750FB1CC511FF00556C6C /* SystemConfiguration.framework */; };
+		C7E750FE1CC5120600556C6C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E750FD1CC5120600556C6C /* libz.tbd */; };
+		C7E751001CC5121100556C6C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E750FF1CC5121100556C6C /* libc++.tbd */; };
+		C7FBBC001CCA62C800950CC2 /* RCBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FBBBDD1CCA62C800950CC2 /* RCBaseModel.m */; };
+		C7FBBC011CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FBBBDF1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8385419A1E0CCC7B0053A0FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842933971CB681AE001198DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8429339E1CB681AE001198DE;
+			remoteInfo = Ccsteam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F62FD1441C4C28D3C06848 /* libPods-Ccsteam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ccsteam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9C10BA6DA3985778D29D7B /* Pods-Ccsteam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ccsteam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam.release.xcconfig"; sourceTree = "<group>"; };
+		68711B9917484304B4C55F62 /* Pods-Ccsteam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ccsteam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam.debug.xcconfig"; sourceTree = "<group>"; };
+		830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCValutaViewController_Private.h; path = WeaterViewController/RCValutaViewController_Private.h; sourceTree = "<group>"; };
+		830769DD1E0BD11300628E50 /* RCWeaterViewController+TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCWeaterViewController+TextField.m"; path = "WeaterViewController/RCWeaterViewController+TextField.m"; sourceTree = "<group>"; };
+		830769E01E0BDA9700628E50 /* RCWeaterViewController+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCWeaterViewController+Tap.m"; sourceTree = "<group>"; };
+		830769E41E0BDE1B00628E50 /* RCGetWeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCGetWeater.m; sourceTree = "<group>"; };
+		830769E51E0BDE1B00628E50 /* RCGetWeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCGetWeater.h; sourceTree = "<group>"; };
+		83076A0D1E0BFAA600628E50 /* RCWeaterViewController+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCWeaterViewController+UI.m"; path = "WeaterViewController/RCWeaterViewController+UI.m"; sourceTree = "<group>"; };
+		832D1D7C1D081F0B00E12FF1 /* API+Creating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+Creating.m"; sourceTree = "<group>"; };
+		832D1D7D1D081F0B00E12FF1 /* API+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+File.m"; sourceTree = "<group>"; };
+		832D1D7E1D081F0B00E12FF1 /* API+ReplyHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+ReplyHandling.m"; sourceTree = "<group>"; };
+		832D1D7F1D081F0B00E12FF1 /* API+RequestProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+RequestProgress.m"; sourceTree = "<group>"; };
+		832D1D801D081F0B00E12FF1 /* API+TokenExpired.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+TokenExpired.m"; sourceTree = "<group>"; };
+		832D1D811D081F0B00E12FF1 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		832D1D821D081F0B00E12FF1 /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		832D1D831D081F0B00E12FF1 /* API_Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API_Protected.h; sourceTree = "<group>"; };
+		832D1D841D081F0B00E12FF1 /* CachingAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachingAPI.h; sourceTree = "<group>"; };
+		832D1D851D081F0B00E12FF1 /* CachingAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachingAPI.m; sourceTree = "<group>"; };
+		832D1D861D081F0B00E12FF1 /* DeleteAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteAPI.h; sourceTree = "<group>"; };
+		832D1D871D081F0B00E12FF1 /* DeleteAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteAPI.m; sourceTree = "<group>"; };
+		832D1D881D081F0B00E12FF1 /* GetAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAPI.h; sourceTree = "<group>"; };
+		832D1D891D081F0B00E12FF1 /* GetAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAPI.m; sourceTree = "<group>"; };
+		832D1D8A1D081F0B00E12FF1 /* PaginationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaginationAPI.h; sourceTree = "<group>"; };
+		832D1D8B1D081F0B00E12FF1 /* PaginationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaginationAPI.m; sourceTree = "<group>"; };
+		832D1D8C1D081F0B00E12FF1 /* PostAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostAPI.h; sourceTree = "<group>"; };
+		832D1D8D1D081F0B00E12FF1 /* PostAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostAPI.m; sourceTree = "<group>"; };
+		832D1D8E1D081F0B00E12FF1 /* PutAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PutAPI.h; sourceTree = "<group>"; };
+		832D1D8F1D081F0B00E12FF1 /* PutAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PutAPI.m; sourceTree = "<group>"; };
+		832D1D9D1D081FAF00E12FF1 /* AWSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSettings.h; sourceTree = "<group>"; };
+		832D1DA01D081FD400E12FF1 /* AWMissedProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWMissedProperties.h; sourceTree = "<group>"; };
+		832D1DA11D081FD400E12FF1 /* AWMissedProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWMissedProperties.m; sourceTree = "<group>"; };
+		832D1DA61D081FDE00E12FF1 /* AWModel+DictionaryToObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWModel+DictionaryToObject.m"; sourceTree = "<group>"; };
+		832D1DA71D081FDE00E12FF1 /* AWModel+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWModel+Mapping.m"; sourceTree = "<group>"; };
+		832D1DA81D081FDE00E12FF1 /* AWModel+ObjectToDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWModel+ObjectToDictionary.m"; sourceTree = "<group>"; };
+		832D1DA91D081FDE00E12FF1 /* AWModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWModel.h; sourceTree = "<group>"; };
+		832D1DAA1D081FDE00E12FF1 /* AWModel_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWModel_Private.h; sourceTree = "<group>"; };
+		832D1DAB1D081FDE00E12FF1 /* FileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileModel.h; sourceTree = "<group>"; };
+		832D1DAC1D081FDE00E12FF1 /* FileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileModel.m; sourceTree = "<group>"; };
+		832D1DAD1D081FDE00E12FF1 /* NSObject+BaseObjectParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BaseObjectParsing.h"; sourceTree = "<group>"; };
+		832D1DAE1D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BaseObjectParsing.m"; sourceTree = "<group>"; };
+		832D1DAF1D081FDE00E12FF1 /* NSString+AWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AWUtils.h"; sourceTree = "<group>"; };
+		832D1DB01D081FDE00E12FF1 /* NSString+AWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AWUtils.m"; sourceTree = "<group>"; };
+		833DAFA21E0BBE2E00F335B6 /* RCRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCRouter.h; path = Router/RCRouter.h; sourceTree = "<group>"; };
+		833DAFA31E0BBE2E00F335B6 /* RCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRouter.m; path = Router/RCRouter.m; sourceTree = "<group>"; };
+		833DAFA61E0BC00A00F335B6 /* RCValutaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCValutaViewController.h; path = WeaterViewController/RCValutaViewController.h; sourceTree = "<group>"; };
+		833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCValutaViewController.m; path = WeaterViewController/RCValutaViewController.m; sourceTree = "<group>"; };
+		833DAFA91E0BC0C300F335B6 /* RCWeaterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RCWeaterViewController.storyboard; path = WeaterViewController/RCWeaterViewController.storyboard; sourceTree = "<group>"; };
+		834D80E41CFD332100525CEC /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
+		834D80E51CFD332100525CEC /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
+		834D80E71CFD338A00525CEC /* NSObject+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
+		834D80E81CFD338A00525CEC /* NSObject+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utils.m"; sourceTree = "<group>"; };
+		834F0E9D1E12A52500106906 /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		834F0E9E1E12A52500106906 /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		834F0EA11E12A75A00106906 /* RCValuta+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RCValuta+CoreDataClass.h"; path = "Valuta/RCValuta+CoreDataClass.h"; sourceTree = "<group>"; };
+		834F0EA21E12A75A00106906 /* RCValuta+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCValuta+CoreDataClass.m"; path = "Valuta/RCValuta+CoreDataClass.m"; sourceTree = "<group>"; };
+		834F0EA31E12A75A00106906 /* RCValuta+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RCValuta+CoreDataProperties.h"; path = "Valuta/RCValuta+CoreDataProperties.h"; sourceTree = "<group>"; };
+		834F0EA41E12A75A00106906 /* RCValuta+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCValuta+CoreDataProperties.m"; path = "Valuta/RCValuta+CoreDataProperties.m"; sourceTree = "<group>"; };
+		836007B01E0B7FA100B3355E /* NSObject+SingletonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SingletonObject.h"; sourceTree = "<group>"; };
+		836007B11E0B7FA100B3355E /* NSObject+SingletonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SingletonObject.m"; sourceTree = "<group>"; };
+		836007B41E0B7FF100B3355E /* AppProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppProtection.h; path = Utils/Singleton/AppProtection/AppProtection.h; sourceTree = "<group>"; };
+		836007B51E0B7FF100B3355E /* AppProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppProtection.m; path = Utils/Singleton/AppProtection/AppProtection.m; sourceTree = "<group>"; };
+		838541951E0CCC7B0053A0FD /* IdamobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdamobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		838541971E0CCC7B0053A0FD /* CcsteamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcsteamTests.m; sourceTree = "<group>"; };
+		838541991E0CCC7B0053A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C8423C1D0559150051B007 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		83C8423D1D0559150051B007 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		8429339F1CB681AE001198DE /* Idamob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idamob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842933A31CB681AE001198DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842933A51CB681AE001198DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842933A61CB681AE001198DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842933AF1CB681AF001198DE /* Recity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recity.xcdatamodel; sourceTree = "<group>"; };
+		842933B11CB681AF001198DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842933B41CB681AF001198DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842933B61CB681AF001198DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842CDC291CB6CD770027543E /* Idamob.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Idamob.pch; sourceTree = "<group>"; };
+		842CDC2B1CB6CEEF0027543E /* RCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCConstants.h; sourceTree = "<group>"; };
+		842CDC2C1CB6CEEF0027543E /* RCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCConstants.m; sourceTree = "<group>"; };
+		84619DAB1CC7B7D500EEBE50 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		84619DAC1CC7B7D500EEBE50 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C72C539B1CC0C4DE00916668 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
+		C72C539C1CC0C4DE00916668 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
+		C72C53DF1CC4C53D00916668 /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
+		C72C53E01CC4C53D00916668 /* NSObject+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassName.m"; sourceTree = "<group>"; };
+		C7E750F91CC511F700556C6C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C7E750FB1CC511FF00556C6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C7E750FD1CC5120600556C6C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C7E750FF1CC5121100556C6C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C7FBBBDC1CCA62C800950CC2 /* RCBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCBaseModel.h; sourceTree = "<group>"; };
+		C7FBBBDD1CCA62C800950CC2 /* RCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCBaseModel.m; sourceTree = "<group>"; };
+		C7FBBBDE1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCBaseModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C7FBBBDF1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCBaseModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FE630FD31D0A699000CD5673 /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838541921E0CCC7B0053A0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429339C1CB681AE001198DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E751001CC5121100556C6C /* libc++.tbd in Frameworks */,
+				C7E750FE1CC5120600556C6C /* libz.tbd in Frameworks */,
+				C7E750FC1CC511FF00556C6C /* SystemConfiguration.framework in Frameworks */,
+				C7E750FA1CC511F700556C6C /* Security.framework in Frameworks */,
+				6BBC5D931C6F11CD37D1F1BF /* libPods-Ccsteam.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11569EEB5D7F4DFC72DB3F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7E750FF1CC5121100556C6C /* libc++.tbd */,
+				C7E750FD1CC5120600556C6C /* libz.tbd */,
+				C7E750FB1CC511FF00556C6C /* SystemConfiguration.framework */,
+				C7E750F91CC511F700556C6C /* Security.framework */,
+				14F62FD1441C4C28D3C06848 /* libPods-Ccsteam.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		830769E21E0BDC7F00628E50 /* GET */ = {
+			isa = PBXGroup;
+			children = (
+				830769E31E0BDE0F00628E50 /* GetWeater */,
+			);
+			name = GET;
+			sourceTree = "<group>";
+		};
+		830769E31E0BDE0F00628E50 /* GetWeater */ = {
+			isa = PBXGroup;
+			children = (
+				830769E51E0BDE1B00628E50 /* RCGetWeater.h */,
+				830769E41E0BDE1B00628E50 /* RCGetWeater.m */,
+			);
+			name = GetWeater;
+			sourceTree = "<group>";
+		};
+		832D1D7A1D081EF600E12FF1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				836007B31E0B7FE900B3355E /* AppProtection */,
+				832D1D7B1D081F0000E12FF1 /* Base */,
+				832D1D9E1D081FB800E12FF1 /* Model */,
+				830769E21E0BDC7F00628E50 /* GET */,
+				832D1D9D1D081FAF00E12FF1 /* AWSettings.h */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		832D1D7B1D081F0000E12FF1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				832D1D7C1D081F0B00E12FF1 /* API+Creating.m */,
+				832D1D7D1D081F0B00E12FF1 /* API+File.m */,
+				832D1D7E1D081F0B00E12FF1 /* API+ReplyHandling.m */,
+				832D1D7F1D081F0B00E12FF1 /* API+RequestProgress.m */,
+				832D1D801D081F0B00E12FF1 /* API+TokenExpired.m */,
+				832D1D811D081F0B00E12FF1 /* API.h */,
+				832D1D821D081F0B00E12FF1 /* API.m */,
+				832D1D831D081F0B00E12FF1 /* API_Protected.h */,
+				832D1D841D081F0B00E12FF1 /* CachingAPI.h */,
+				832D1D851D081F0B00E12FF1 /* CachingAPI.m */,
+				832D1D861D081F0B00E12FF1 /* DeleteAPI.h */,
+				832D1D871D081F0B00E12FF1 /* DeleteAPI.m */,
+				832D1D881D081F0B00E12FF1 /* GetAPI.h */,
+				832D1D891D081F0B00E12FF1 /* GetAPI.m */,
+				832D1D8A1D081F0B00E12FF1 /* PaginationAPI.h */,
+				832D1D8B1D081F0B00E12FF1 /* PaginationAPI.m */,
+				832D1D8C1D081F0B00E12FF1 /* PostAPI.h */,
+				832D1D8D1D081F0B00E12FF1 /* PostAPI.m */,
+				832D1D8E1D081F0B00E12FF1 /* PutAPI.h */,
+				832D1D8F1D081F0B00E12FF1 /* PutAPI.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		832D1D9E1D081FB800E12FF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				832D1D9F1D081FCE00E12FF1 /* Missed properties */,
+				832D1DA61D081FDE00E12FF1 /* AWModel+DictionaryToObject.m */,
+				832D1DA71D081FDE00E12FF1 /* AWModel+Mapping.m */,
+				832D1DA81D081FDE00E12FF1 /* AWModel+ObjectToDictionary.m */,
+				832D1DA91D081FDE00E12FF1 /* AWModel.h */,
+				832D1DAA1D081FDE00E12FF1 /* AWModel_Private.h */,
+				832D1DAB1D081FDE00E12FF1 /* FileModel.h */,
+				832D1DAC1D081FDE00E12FF1 /* FileModel.m */,
+				832D1DAD1D081FDE00E12FF1 /* NSObject+BaseObjectParsing.h */,
+				832D1DAE1D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m */,
+				832D1DAF1D081FDE00E12FF1 /* NSString+AWUtils.h */,
+				832D1DB01D081FDE00E12FF1 /* NSString+AWUtils.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		832D1D9F1D081FCE00E12FF1 /* Missed properties */ = {
+			isa = PBXGroup;
+			children = (
+				832D1DA01D081FD400E12FF1 /* AWMissedProperties.h */,
+				832D1DA11D081FD400E12FF1 /* AWMissedProperties.m */,
+			);
+			name = "Missed properties";
+			sourceTree = "<group>";
+		};
+		833DAFA11E0BBD9900F335B6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				833DAFA21E0BBE2E00F335B6 /* RCRouter.h */,
+				833DAFA31E0BBE2E00F335B6 /* RCRouter.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		833DAFA51E0BBF9900F335B6 /* WeaterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				833DAFA61E0BC00A00F335B6 /* RCValutaViewController.h */,
+				833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */,
+				830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */,
+				83076A0D1E0BFAA600628E50 /* RCWeaterViewController+UI.m */,
+				830769DD1E0BD11300628E50 /* RCWeaterViewController+TextField.m */,
+				830769E01E0BDA9700628E50 /* RCWeaterViewController+Tap.m */,
+				833DAFA91E0BC0C300F335B6 /* RCWeaterViewController.storyboard */,
+			);
+			name = WeaterViewController;
+			sourceTree = "<group>";
+		};
+		834F0E991E12A35F00106906 /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				834F0E9E1E12A52500106906 /* XMLDictionary.h */,
+				834F0E9D1E12A52500106906 /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			sourceTree = "<group>";
+		};
+		834F0EA01E12A73400106906 /* Valuta */ = {
+			isa = PBXGroup;
+			children = (
+				834F0EA11E12A75A00106906 /* RCValuta+CoreDataClass.h */,
+				834F0EA21E12A75A00106906 /* RCValuta+CoreDataClass.m */,
+				834F0EA31E12A75A00106906 /* RCValuta+CoreDataProperties.h */,
+				834F0EA41E12A75A00106906 /* RCValuta+CoreDataProperties.m */,
+			);
+			name = Valuta;
+			sourceTree = "<group>";
+		};
+		836007B31E0B7FE900B3355E /* AppProtection */ = {
+			isa = PBXGroup;
+			children = (
+				836007B41E0B7FF100B3355E /* AppProtection.h */,
+				836007B51E0B7FF100B3355E /* AppProtection.m */,
+			);
+			name = AppProtection;
+			sourceTree = "<group>";
+		};
+		838541961E0CCC7B0053A0FD /* CcsteamTests */ = {
+			isa = PBXGroup;
+			children = (
+				838541971E0CCC7B0053A0FD /* CcsteamTests.m */,
+				838541991E0CCC7B0053A0FD /* Info.plist */,
+			);
+			path = CcsteamTests;
+			sourceTree = "<group>";
+		};
+		83BB3A4A1CFBE4FC008F16FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				833DAFA51E0BBF9900F335B6 /* WeaterViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		83BB3A4C1CFBE521008F16FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				834F0EA01E12A73400106906 /* Valuta */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		83BB3A4D1CFBE52E008F16FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83BB3A4E1CFBE538008F16FA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				83BB3A4F1CFBE544008F16FA /* Base Classes */,
+				83BB3A531CFBE667008F16FA /* Helpers */,
+				83BB3A7F1CFBEDED008F16FA /* Managers */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		83BB3A4F1CFBE544008F16FA /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83BB3A6E1CFBEBB4008F16FA /* BaseModel */,
+			);
+			path = "Base Classes";
+			sourceTree = "<group>";
+		};
+		83BB3A501CFBE56E008F16FA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FE630FD31D0A699000CD5673 /* Warnings.xcconfig */,
+				842933A51CB681AE001198DE /* AppDelegate.h */,
+				842933A61CB681AE001198DE /* AppDelegate.m */,
+				842933B61CB681AF001198DE /* Info.plist */,
+				842CDC291CB6CD770027543E /* Idamob.pch */,
+				842933A31CB681AE001198DE /* main.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		83BB3A521CFBE61C008F16FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				842933B11CB681AF001198DE /* Assets.xcassets */,
+				842933B31CB681AF001198DE /* LaunchScreen.storyboard */,
+				842933AE1CB681AF001198DE /* Recity.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83BB3A531CFBE667008F16FA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				834F0E991E12A35F00106906 /* XMLDictionary */,
+				832D1D7A1D081EF600E12FF1 /* API */,
+				83BB3A571CFBE7C1008F16FA /* Base objects extensions */,
+				83BB3A671CFBEA54008F16FA /* Constants */,
+				83BB3A5C1CFBE8AC008F16FA /* Reachability */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		83BB3A571CFBE7C1008F16FA /* Base objects extensions */ = {
+			isa = PBXGroup;
+			children = (
+				83BB3A611CFBE9CB008F16FA /* NSObject */,
+				83BB3A691CFBEA89008F16FA /* UIColor */,
+				83BB3A661CFBEA1D008F16FA /* UIViewController */,
+			);
+			path = "Base objects extensions";
+			sourceTree = "<group>";
+		};
+		83BB3A5C1CFBE8AC008F16FA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				84619DAB1CC7B7D500EEBE50 /* Reachability.h */,
+				84619DAC1CC7B7D500EEBE50 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		83BB3A611CFBE9CB008F16FA /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				834D80E71CFD338A00525CEC /* NSObject+Utils.h */,
+				834D80E81CFD338A00525CEC /* NSObject+Utils.m */,
+				C72C53DF1CC4C53D00916668 /* NSObject+ClassName.h */,
+				C72C53E01CC4C53D00916668 /* NSObject+ClassName.m */,
+				836007B01E0B7FA100B3355E /* NSObject+SingletonObject.h */,
+				836007B11E0B7FA100B3355E /* NSObject+SingletonObject.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		83BB3A661CFBEA1D008F16FA /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				83C8423C1D0559150051B007 /* UIViewController+Utils.h */,
+				83C8423D1D0559150051B007 /* UIViewController+Utils.m */,
+				C72C539B1CC0C4DE00916668 /* UIViewController+Storyboard.h */,
+				C72C539C1CC0C4DE00916668 /* UIViewController+Storyboard.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		83BB3A671CFBEA54008F16FA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				842CDC2B1CB6CEEF0027543E /* RCConstants.h */,
+				842CDC2C1CB6CEEF0027543E /* RCConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		83BB3A691CFBEA89008F16FA /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				834D80E41CFD332100525CEC /* UIColor+RCColor.h */,
+				834D80E51CFD332100525CEC /* UIColor+RCColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		83BB3A6E1CFBEBB4008F16FA /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				C7FBBBDE1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.h */,
+				C7FBBBDF1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m */,
+				C7FBBBDC1CCA62C800950CC2 /* RCBaseModel.h */,
+				C7FBBBDD1CCA62C800950CC2 /* RCBaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		83BB3A7F1CFBEDED008F16FA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				833DAFA11E0BBD9900F335B6 /* Router */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		842933961CB681AE001198DE = {
+			isa = PBXGroup;
+			children = (
+				842933A11CB681AE001198DE /* Idamob */,
+				838541961E0CCC7B0053A0FD /* CcsteamTests */,
+				11569EEB5D7F4DFC72DB3F32 /* Frameworks */,
+				842933A01CB681AE001198DE /* Products */,
+				B5A8DC1DC152E692A6125E60 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		842933A01CB681AE001198DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8429339F1CB681AE001198DE /* Idamob.app */,
+				838541951E0CCC7B0053A0FD /* IdamobTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842933A11CB681AE001198DE /* Idamob */ = {
+			isa = PBXGroup;
+			children = (
+				83BB3A4A1CFBE4FC008F16FA /* Controllers */,
+				83BB3A4D1CFBE52E008F16FA /* Views */,
+				83BB3A4C1CFBE521008F16FA /* Models */,
+				83BB3A4E1CFBE538008F16FA /* Library */,
+				83BB3A501CFBE56E008F16FA /* Application */,
+				83BB3A521CFBE61C008F16FA /* Resources */,
+			);
+			name = Idamob;
+			path = Recity;
+			sourceTree = "<group>";
+		};
+		B5A8DC1DC152E692A6125E60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68711B9917484304B4C55F62 /* Pods-Ccsteam.debug.xcconfig */,
+				2A9C10BA6DA3985778D29D7B /* Pods-Ccsteam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838541941E0CCC7B0053A0FD /* IdamobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8385419E1E0CCC7B0053A0FD /* Build configuration list for PBXNativeTarget "IdamobTests" */;
+			buildPhases = (
+				838541911E0CCC7B0053A0FD /* Sources */,
+				838541921E0CCC7B0053A0FD /* Frameworks */,
+				838541931E0CCC7B0053A0FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8385419B1E0CCC7B0053A0FD /* PBXTargetDependency */,
+			);
+			name = IdamobTests;
+			productName = CcsteamTests;
+			productReference = 838541951E0CCC7B0053A0FD /* IdamobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8429339E1CB681AE001198DE /* Idamob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842933B91CB681AF001198DE /* Build configuration list for PBXNativeTarget "Idamob" */;
+			buildPhases = (
+				F463DA60256B54BA7FB91C79 /* [CP] Check Pods Manifest.lock */,
+				8429339B1CB681AE001198DE /* Sources */,
+				8429339C1CB681AE001198DE /* Frameworks */,
+				8429339D1CB681AE001198DE /* Resources */,
+				84D644D31CC4E618004B40FD /* ShellScript */,
+				C73855E3A3DBB3059260274F /* [CP] Embed Pods Frameworks */,
+				2672613462FD85B5D764E1BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Idamob;
+			productName = Recity;
+			productReference = 8429339F1CB681AE001198DE /* Idamob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842933971CB681AE001198DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RC;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Recity;
+				TargetAttributes = {
+					838541941E0CCC7B0053A0FD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5874DUL5Z2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8429339E1CB681AE001198DE;
+					};
+					8429339E1CB681AE001198DE = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5874DUL5Z2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8429339A1CB681AE001198DE /* Build configuration list for PBXProject "Idamob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842933961CB681AE001198DE;
+			productRefGroup = 842933A01CB681AE001198DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8429339E1CB681AE001198DE /* Idamob */,
+				838541941E0CCC7B0053A0FD /* IdamobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838541931E0CCC7B0053A0FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429339D1CB681AE001198DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842933B51CB681AF001198DE /* LaunchScreen.storyboard in Resources */,
+				842933B21CB681AF001198DE /* Assets.xcassets in Resources */,
+				833DAFAA1E0BC0C300F335B6 /* RCWeaterViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2672613462FD85B5D764E1BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84D644D31CC4E618004B40FD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" f20360de3b54f7a39e2b3dc0b2990aab1775690a d675e04452c0e464f6ee068cf423266147b94ca66a2421c098425a476c0a6244";
+		};
+		C73855E3A3DBB3059260274F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F463DA60256B54BA7FB91C79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838541911E0CCC7B0053A0FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838541981E0CCC7B0053A0FD /* CcsteamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429339B1CB681AE001198DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830769E61E0BDE1B00628E50 /* RCGetWeater.m in Sources */,
+				832D1D9A1D081F0B00E12FF1 /* PostAPI.m in Sources */,
+				834F0E9F1E12A52500106906 /* XMLDictionary.m in Sources */,
+				C7FBBC011CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m in Sources */,
+				830769DB1E0BD0B800628E50 /* RCValutaViewController_Private.h in Sources */,
+				834D80E61CFD332100525CEC /* UIColor+RCColor.m in Sources */,
+				832D1D9B1D081F0B00E12FF1 /* PutAPI.m in Sources */,
+				832D1DB41D081FDE00E12FF1 /* FileModel.m in Sources */,
+				832D1D981D081F0B00E12FF1 /* GetAPI.m in Sources */,
+				834D80E91CFD338A00525CEC /* NSObject+Utils.m in Sources */,
+				842933A71CB681AE001198DE /* AppDelegate.m in Sources */,
+				832D1D921D081F0B00E12FF1 /* API+ReplyHandling.m in Sources */,
+				83076A0E1E0BFAA600628E50 /* RCWeaterViewController+UI.m in Sources */,
+				832D1D901D081F0B00E12FF1 /* API+Creating.m in Sources */,
+				842933A41CB681AE001198DE /* main.m in Sources */,
+				832D1DA41D081FD400E12FF1 /* AWMissedProperties.m in Sources */,
+				C72C53E11CC4C53D00916668 /* NSObject+ClassName.m in Sources */,
+				83C8423E1D0559150051B007 /* UIViewController+Utils.m in Sources */,
+				C72C53A11CC0C4DE00916668 /* UIViewController+Storyboard.m in Sources */,
+				833DAFA41E0BBE2E00F335B6 /* RCRouter.m in Sources */,
+				830769DE1E0BD11300628E50 /* RCWeaterViewController+TextField.m in Sources */,
+				836007B61E0B7FF100B3355E /* AppProtection.m in Sources */,
+				832D1D931D081F0B00E12FF1 /* API+RequestProgress.m in Sources */,
+				832D1DB51D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m in Sources */,
+				832D1DB31D081FDE00E12FF1 /* AWModel+ObjectToDictionary.m in Sources */,
+				836007B21E0B7FA100B3355E /* NSObject+SingletonObject.m in Sources */,
+				84619DAD1CC7B7D500EEBE50 /* Reachability.m in Sources */,
+				834F0EA61E12A75A00106906 /* RCValuta+CoreDataProperties.m in Sources */,
+				832D1D991D081F0B00E12FF1 /* PaginationAPI.m in Sources */,
+				832D1D911D081F0B00E12FF1 /* API+File.m in Sources */,
+				832D1D971D081F0B00E12FF1 /* DeleteAPI.m in Sources */,
+				C7FBBC001CCA62C800950CC2 /* RCBaseModel.m in Sources */,
+				832D1D951D081F0B00E12FF1 /* API.m in Sources */,
+				830769E11E0BDA9700628E50 /* RCWeaterViewController+Tap.m in Sources */,
+				832D1D961D081F0B00E12FF1 /* CachingAPI.m in Sources */,
+				833DAFA81E0BC00A00F335B6 /* RCValutaViewController.m in Sources */,
+				832D1DB21D081FDE00E12FF1 /* AWModel+Mapping.m in Sources */,
+				832D1DB61D081FDE00E12FF1 /* NSString+AWUtils.m in Sources */,
+				832D1DB11D081FDE00E12FF1 /* AWModel+DictionaryToObject.m in Sources */,
+				842CDC2D1CB6CEEF0027543E /* RCConstants.m in Sources */,
+				834F0EA51E12A75A00106906 /* RCValuta+CoreDataClass.m in Sources */,
+				832D1D941D081F0B00E12FF1 /* API+TokenExpired.m in Sources */,
+				842933B01CB681AF001198DE /* Recity.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8385419B1E0CCC7B0053A0FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8429339E1CB681AE001198DE /* Idamob */;
+			targetProxy = 8385419A1E0CCC7B0053A0FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842933B31CB681AF001198DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842933B41CB681AF001198DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8385419C1E0CCC7B0053A0FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5874DUL5Z2;
+				INFOPLIST_FILE = CcsteamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Kulagin.CcsteamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idamob.app/Idamob";
+			};
+			name = Debug;
+		};
+		8385419D1E0CCC7B0053A0FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CcsteamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Kulagin.CcsteamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Idamob.app/Idamob";
+			};
+			name = Release;
+		};
+		842933B71CB681AF001198DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE630FD31D0A699000CD5673 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Kozin (579UFBKFK4)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842933B81CB681AF001198DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE630FD31D0A699000CD5673 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Alexander Kozin (579UFBKFK4)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842933BA1CB681AF001198DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68711B9917484304B4C55F62 /* Pods-Ccsteam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5874DUL5Z2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recity",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Recity/Application/Idamob.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = Recity/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/EasyMapping\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MagicalRecord\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OMGHTTPURLRQ\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PromiseKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/libextobjc\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kulagin.idamob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		842933BB1CB681AF001198DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9C10BA6DA3985778D29D7B /* Pods-Ccsteam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5874DUL5Z2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recity",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Recity/Application/Idamob.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = Recity/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/EasyMapping\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MagicalRecord\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OMGHTTPURLRQ\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PromiseKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/libextobjc\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kulagin.idamob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8385419E1E0CCC7B0053A0FD /* Build configuration list for PBXNativeTarget "IdamobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8385419C1E0CCC7B0053A0FD /* Debug */,
+				8385419D1E0CCC7B0053A0FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429339A1CB681AE001198DE /* Build configuration list for PBXProject "Idamob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842933B71CB681AF001198DE /* Debug */,
+				842933B81CB681AF001198DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842933B91CB681AF001198DE /* Build configuration list for PBXNativeTarget "Idamob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842933BA1CB681AF001198DE /* Debug */,
+				842933BB1CB681AF001198DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		842933AE1CB681AF001198DE /* Recity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				842933AF1CB681AF001198DE /* Recity.xcdatamodel */,
+			);
+			currentVersion = 842933AF1CB681AF001198DE /* Recity.xcdatamodel */;
+			path = Recity.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 842933971CB681AE001198DE /* Project object */;
+}

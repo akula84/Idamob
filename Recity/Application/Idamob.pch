@@ -1,0 +1,26 @@
+//
+//  Recity.pch
+//  Recity
+//
+//  Created by Dmitriy Doroschuk on 07.04.16.
+//  Copyright © 2016 Recity. All rights reserved.
+//
+
+#ifndef Ccsteam_pch
+#define Ccsteam_pch
+
+    #import "RCConstants.h"
+    #import <MagicalRecord/MagicalRecord.h>
+    #import "isFull.h"
+    #import <extobjc.h>
+    #import <UIKit/UIKit.h>
+
+    #import "AppDelegate.h"
+
+    #import "NSObject+ClassName.h"
+    #import "AppProtection.h"
+    #import "NSObject+SingletonObject.h"
+    #import "UIViewController+Utils.h"
+    #import "UIColor+RCColor.h"
+
+#endif /* Recity_pch */
