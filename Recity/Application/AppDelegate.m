@@ -17,14 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     [self magicalRecordSetup];
-    [self globalSetup];
     [RCRouter showValuta];
     return YES;
-}
-
-- (void)globalSetup{
-    [[UINavigationBar appearance] setBarTintColor:[UIColor purpleBlueBar]];
-    [[UINavigationBar appearance] setTranslucent:NO];
 }
 
 - (void)magicalRecordSetup{

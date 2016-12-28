@@ -28,8 +28,8 @@
 }
 
 - (void)testExample {
-    [RCGetWeater withObject:@{@"q":@"Berlin"} completion:^(id reply, NSError *error, BOOL *handleError) {
-        NSLog(@"RCGetWeater %@",reply);
+    [RCGetValuta withCompletion:^(id reply, NSError *error, BOOL *handleError) {
+        NSLog(@"reply %@",reply)
     }];
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.

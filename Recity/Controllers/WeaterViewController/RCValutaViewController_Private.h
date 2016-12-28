@@ -9,12 +9,6 @@
 
 @interface RCValutaViewController ()
 
-@property (weak, nonatomic) IBOutlet UITextField *textField;
-@property (weak, nonatomic) IBOutlet UILabel *nameTitle;
-@property (weak, nonatomic) IBOutlet UIImageView *iconImage;
-@property (weak, nonatomic) IBOutlet UILabel *tempLabel;
-@property (weak, nonatomic) IBOutlet UILabel *mainLabel;
-
 /**
  *  send to Server http://www.cbr.ru/scripts/XML_daily.asp with parameters
  */

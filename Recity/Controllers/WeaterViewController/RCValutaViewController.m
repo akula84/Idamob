@@ -24,11 +24,17 @@
 }
 
 - (void)sendToServer{
+    __weak __typeof__(self) weakSelf = self;
     [RCGetValuta withCompletion:^(id reply, NSError *error, BOOL *handleError) {
-       NSLog(@"reply %@",reply)
+        __strong __typeof__(weakSelf) strongSelf = weakSelf;
+        [strongSelf.refreshControl endRefreshing];
+        NSLog(@"reply %@",reply)
     }];
 }
 
+- (IBAction)refreshAction:(id)sender {
+    [self sendToServer];
+}
 
 + (NSString *)storyboardName {
     return @"RCValutaViewController";

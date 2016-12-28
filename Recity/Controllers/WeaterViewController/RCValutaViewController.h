@@ -6,8 +6,6 @@
 //  Copyright © 2016 Recity. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface RCValutaViewController : UIViewController
+@interface RCValutaViewController : UITableViewController
 
 @end
