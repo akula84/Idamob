@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     [self magicalRecordSetup];
     [self globalSetup];
-    [RCRouter showWeater];
+    [RCRouter showValuta];
     return YES;
 }
 

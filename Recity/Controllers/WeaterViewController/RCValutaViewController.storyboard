@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HTK-Ja-OTK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Valuta View Controller-->
+        <scene sceneID="RFr-Im-Q62">
+            <objects>
+                <viewController storyboardIdentifier="RCWeaterViewController" id="HTK-Ja-OTK" customClass="RCValutaViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IBN-VD-hY6"/>
+                        <viewControllerLayoutGuide type="bottom" id="8wB-9G-mxD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XD1-Wp-yey">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ibw-Kt-n4c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hf6-Oj-ReW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-319.19999999999999" y="-107.49625187406298"/>
+        </scene>
+    </scenes>
+</document>

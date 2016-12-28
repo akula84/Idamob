@@ -8,12 +8,12 @@
 
 #import "RCRouter.h"
 
-#import "RCWeaterViewController.h"
+#import "RCValutaViewController.h"
 
 @implementation RCRouter
 
-+ (void)showWeater{
-    UIViewController *vc = [RCWeaterViewController initialController];
++ (void)showValuta{
+    UIViewController *vc = [RCValutaViewController initialController];
     [self setRootViewController:vc];
 }
 

@@ -7,12 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6BBC5D931C6F11CD37D1F1BF /* libPods-Ccsteam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F62FD1441C4C28D3C06848 /* libPods-Ccsteam.a */; };
+		6004DA6C395D2E0F8886FA86 /* libPods-Idamob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3717547CC5D448738D581259 /* libPods-Idamob.a */; };
 		830769DB1E0BD0B800628E50 /* RCValutaViewController_Private.h in Sources */ = {isa = PBXBuildFile; fileRef = 830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */; };
-		830769DE1E0BD11300628E50 /* RCWeaterViewController+TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769DD1E0BD11300628E50 /* RCWeaterViewController+TextField.m */; };
-		830769E11E0BDA9700628E50 /* RCWeaterViewController+Tap.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769E01E0BDA9700628E50 /* RCWeaterViewController+Tap.m */; };
-		830769E61E0BDE1B00628E50 /* RCGetWeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769E41E0BDE1B00628E50 /* RCGetWeater.m */; };
-		83076A0E1E0BFAA600628E50 /* RCWeaterViewController+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 83076A0D1E0BFAA600628E50 /* RCWeaterViewController+UI.m */; };
+		830769E61E0BDE1B00628E50 /* RCGetValuta.m in Sources */ = {isa = PBXBuildFile; fileRef = 830769E41E0BDE1B00628E50 /* RCGetValuta.m */; };
 		832D1D901D081F0B00E12FF1 /* API+Creating.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7C1D081F0B00E12FF1 /* API+Creating.m */; };
 		832D1D911D081F0B00E12FF1 /* API+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7D1D081F0B00E12FF1 /* API+File.m */; };
 		832D1D921D081F0B00E12FF1 /* API+ReplyHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1D7E1D081F0B00E12FF1 /* API+ReplyHandling.m */; };
@@ -34,7 +31,7 @@
 		832D1DB61D081FDE00E12FF1 /* NSString+AWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 832D1DB01D081FDE00E12FF1 /* NSString+AWUtils.m */; };
 		833DAFA41E0BBE2E00F335B6 /* RCRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DAFA31E0BBE2E00F335B6 /* RCRouter.m */; };
 		833DAFA81E0BC00A00F335B6 /* RCValutaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */; };
-		833DAFAA1E0BC0C300F335B6 /* RCWeaterViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833DAFA91E0BC0C300F335B6 /* RCWeaterViewController.storyboard */; };
+		833DAFAA1E0BC0C300F335B6 /* RCValutaViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833DAFA91E0BC0C300F335B6 /* RCValutaViewController.storyboard */; };
 		834D80E61CFD332100525CEC /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D80E51CFD332100525CEC /* UIColor+RCColor.m */; };
 		834D80E91CFD338A00525CEC /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 834D80E81CFD338A00525CEC /* NSObject+Utils.m */; };
 		834F0E9F1E12A52500106906 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 834F0E9D1E12A52500106906 /* XMLDictionary.m */; };
@@ -72,15 +69,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		14F62FD1441C4C28D3C06848 /* libPods-Ccsteam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ccsteam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9C10BA6DA3985778D29D7B /* Pods-Ccsteam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ccsteam.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam.release.xcconfig"; sourceTree = "<group>"; };
+		3717547CC5D448738D581259 /* libPods-Idamob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Idamob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68711B9917484304B4C55F62 /* Pods-Ccsteam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ccsteam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam.debug.xcconfig"; sourceTree = "<group>"; };
 		830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCValutaViewController_Private.h; path = WeaterViewController/RCValutaViewController_Private.h; sourceTree = "<group>"; };
-		830769DD1E0BD11300628E50 /* RCWeaterViewController+TextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCWeaterViewController+TextField.m"; path = "WeaterViewController/RCWeaterViewController+TextField.m"; sourceTree = "<group>"; };
-		830769E01E0BDA9700628E50 /* RCWeaterViewController+Tap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCWeaterViewController+Tap.m"; sourceTree = "<group>"; };
-		830769E41E0BDE1B00628E50 /* RCGetWeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCGetWeater.m; sourceTree = "<group>"; };
-		830769E51E0BDE1B00628E50 /* RCGetWeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCGetWeater.h; sourceTree = "<group>"; };
-		83076A0D1E0BFAA600628E50 /* RCWeaterViewController+UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCWeaterViewController+UI.m"; path = "WeaterViewController/RCWeaterViewController+UI.m"; sourceTree = "<group>"; };
+		830769E41E0BDE1B00628E50 /* RCGetValuta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCGetValuta.m; sourceTree = "<group>"; };
+		830769E51E0BDE1B00628E50 /* RCGetValuta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCGetValuta.h; sourceTree = "<group>"; };
 		832D1D7C1D081F0B00E12FF1 /* API+Creating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+Creating.m"; sourceTree = "<group>"; };
 		832D1D7D1D081F0B00E12FF1 /* API+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+File.m"; sourceTree = "<group>"; };
 		832D1D7E1D081F0B00E12FF1 /* API+ReplyHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "API+ReplyHandling.m"; sourceTree = "<group>"; };
@@ -119,7 +113,7 @@
 		833DAFA31E0BBE2E00F335B6 /* RCRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCRouter.m; path = Router/RCRouter.m; sourceTree = "<group>"; };
 		833DAFA61E0BC00A00F335B6 /* RCValutaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCValutaViewController.h; path = WeaterViewController/RCValutaViewController.h; sourceTree = "<group>"; };
 		833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCValutaViewController.m; path = WeaterViewController/RCValutaViewController.m; sourceTree = "<group>"; };
-		833DAFA91E0BC0C300F335B6 /* RCWeaterViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RCWeaterViewController.storyboard; path = WeaterViewController/RCWeaterViewController.storyboard; sourceTree = "<group>"; };
+		833DAFA91E0BC0C300F335B6 /* RCValutaViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = RCValutaViewController.storyboard; path = WeaterViewController/RCValutaViewController.storyboard; sourceTree = "<group>"; };
 		834D80E41CFD332100525CEC /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
 		834D80E51CFD332100525CEC /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
 		834D80E71CFD338A00525CEC /* NSObject+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
@@ -152,6 +146,7 @@
 		842CDC2C1CB6CEEF0027543E /* RCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCConstants.m; sourceTree = "<group>"; };
 		84619DAB1CC7B7D500EEBE50 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		84619DAC1CC7B7D500EEBE50 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		93764A585E22394F006512B9 /* Pods-Idamob.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Idamob.release.xcconfig"; path = "Pods/Target Support Files/Pods-Idamob/Pods-Idamob.release.xcconfig"; sourceTree = "<group>"; };
 		C72C539B1CC0C4DE00916668 /* UIViewController+Storyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Storyboard.h"; sourceTree = "<group>"; };
 		C72C539C1CC0C4DE00916668 /* UIViewController+Storyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Storyboard.m"; sourceTree = "<group>"; };
 		C72C53DF1CC4C53D00916668 /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
@@ -164,6 +159,7 @@
 		C7FBBBDD1CCA62C800950CC2 /* RCBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCBaseModel.m; sourceTree = "<group>"; };
 		C7FBBBDE1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCBaseModel+CoreDataProperties.h"; sourceTree = "<group>"; };
 		C7FBBBDF1CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCBaseModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FD3040762BD977BD7EAE6767 /* Pods-Idamob.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Idamob.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Idamob/Pods-Idamob.debug.xcconfig"; sourceTree = "<group>"; };
 		FE630FD31D0A699000CD5673 /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,7 +179,7 @@
 				C7E750FE1CC5120600556C6C /* libz.tbd in Frameworks */,
 				C7E750FC1CC511FF00556C6C /* SystemConfiguration.framework in Frameworks */,
 				C7E750FA1CC511F700556C6C /* Security.framework in Frameworks */,
-				6BBC5D931C6F11CD37D1F1BF /* libPods-Ccsteam.a in Frameworks */,
+				6004DA6C395D2E0F8886FA86 /* libPods-Idamob.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +193,7 @@
 				C7E750FD1CC5120600556C6C /* libz.tbd */,
 				C7E750FB1CC511FF00556C6C /* SystemConfiguration.framework */,
 				C7E750F91CC511F700556C6C /* Security.framework */,
-				14F62FD1441C4C28D3C06848 /* libPods-Ccsteam.a */,
+				3717547CC5D448738D581259 /* libPods-Idamob.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,8 +209,8 @@
 		830769E31E0BDE0F00628E50 /* GetWeater */ = {
 			isa = PBXGroup;
 			children = (
-				830769E51E0BDE1B00628E50 /* RCGetWeater.h */,
-				830769E41E0BDE1B00628E50 /* RCGetWeater.m */,
+				830769E51E0BDE1B00628E50 /* RCGetValuta.h */,
+				830769E41E0BDE1B00628E50 /* RCGetValuta.m */,
 			);
 			name = GetWeater;
 			sourceTree = "<group>";
@@ -295,18 +291,15 @@
 			name = Router;
 			sourceTree = "<group>";
 		};
-		833DAFA51E0BBF9900F335B6 /* WeaterViewController */ = {
+		833DAFA51E0BBF9900F335B6 /* ValutaViewController */ = {
 			isa = PBXGroup;
 			children = (
 				833DAFA61E0BC00A00F335B6 /* RCValutaViewController.h */,
 				833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */,
 				830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */,
-				83076A0D1E0BFAA600628E50 /* RCWeaterViewController+UI.m */,
-				830769DD1E0BD11300628E50 /* RCWeaterViewController+TextField.m */,
-				830769E01E0BDA9700628E50 /* RCWeaterViewController+Tap.m */,
-				833DAFA91E0BC0C300F335B6 /* RCWeaterViewController.storyboard */,
+				833DAFA91E0BC0C300F335B6 /* RCValutaViewController.storyboard */,
 			);
-			name = WeaterViewController;
+			name = ValutaViewController;
 			sourceTree = "<group>";
 		};
 		834F0E991E12A35F00106906 /* XMLDictionary */ = {
@@ -350,7 +343,7 @@
 		83BB3A4A1CFBE4FC008F16FA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				833DAFA51E0BBF9900F335B6 /* WeaterViewController */,
+				833DAFA51E0BBF9900F335B6 /* ValutaViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -542,6 +535,8 @@
 			children = (
 				68711B9917484304B4C55F62 /* Pods-Ccsteam.debug.xcconfig */,
 				2A9C10BA6DA3985778D29D7B /* Pods-Ccsteam.release.xcconfig */,
+				FD3040762BD977BD7EAE6767 /* Pods-Idamob.debug.xcconfig */,
+				93764A585E22394F006512B9 /* Pods-Idamob.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -648,7 +643,7 @@
 			files = (
 				842933B51CB681AF001198DE /* LaunchScreen.storyboard in Resources */,
 				842933B21CB681AF001198DE /* Assets.xcassets in Resources */,
-				833DAFAA1E0BC0C300F335B6 /* RCWeaterViewController.storyboard in Resources */,
+				833DAFAA1E0BC0C300F335B6 /* RCValutaViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,7 +662,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Idamob/Pods-Idamob-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		84D644D31CC4E618004B40FD /* ShellScript */ = {
@@ -695,7 +690,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ccsteam/Pods-Ccsteam-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Idamob/Pods-Idamob-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F463DA60256B54BA7FB91C79 /* [CP] Check Pods Manifest.lock */ = {
@@ -728,7 +723,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830769E61E0BDE1B00628E50 /* RCGetWeater.m in Sources */,
+				830769E61E0BDE1B00628E50 /* RCGetValuta.m in Sources */,
 				832D1D9A1D081F0B00E12FF1 /* PostAPI.m in Sources */,
 				834F0E9F1E12A52500106906 /* XMLDictionary.m in Sources */,
 				C7FBBC011CCA62C800950CC2 /* RCBaseModel+CoreDataProperties.m in Sources */,
@@ -740,7 +735,6 @@
 				834D80E91CFD338A00525CEC /* NSObject+Utils.m in Sources */,
 				842933A71CB681AE001198DE /* AppDelegate.m in Sources */,
 				832D1D921D081F0B00E12FF1 /* API+ReplyHandling.m in Sources */,
-				83076A0E1E0BFAA600628E50 /* RCWeaterViewController+UI.m in Sources */,
 				832D1D901D081F0B00E12FF1 /* API+Creating.m in Sources */,
 				842933A41CB681AE001198DE /* main.m in Sources */,
 				832D1DA41D081FD400E12FF1 /* AWMissedProperties.m in Sources */,
@@ -748,7 +742,6 @@
 				83C8423E1D0559150051B007 /* UIViewController+Utils.m in Sources */,
 				C72C53A11CC0C4DE00916668 /* UIViewController+Storyboard.m in Sources */,
 				833DAFA41E0BBE2E00F335B6 /* RCRouter.m in Sources */,
-				830769DE1E0BD11300628E50 /* RCWeaterViewController+TextField.m in Sources */,
 				836007B61E0B7FF100B3355E /* AppProtection.m in Sources */,
 				832D1D931D081F0B00E12FF1 /* API+RequestProgress.m in Sources */,
 				832D1DB51D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m in Sources */,
@@ -761,7 +754,6 @@
 				832D1D971D081F0B00E12FF1 /* DeleteAPI.m in Sources */,
 				C7FBBC001CCA62C800950CC2 /* RCBaseModel.m in Sources */,
 				832D1D951D081F0B00E12FF1 /* API.m in Sources */,
-				830769E11E0BDA9700628E50 /* RCWeaterViewController+Tap.m in Sources */,
 				832D1D961D081F0B00E12FF1 /* CachingAPI.m in Sources */,
 				833DAFA81E0BC00A00F335B6 /* RCValutaViewController.m in Sources */,
 				832D1DB21D081FDE00E12FF1 /* AWModel+Mapping.m in Sources */,
@@ -921,7 +913,7 @@
 		};
 		842933BA1CB681AF001198DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68711B9917484304B4C55F62 /* Pods-Ccsteam.debug.xcconfig */;
+			baseConfigurationReference = FD3040762BD977BD7EAE6767 /* Pods-Idamob.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -965,7 +957,7 @@
 		};
 		842933BB1CB681AF001198DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A9C10BA6DA3985778D29D7B /* Pods-Ccsteam.release.xcconfig */;
+			baseConfigurationReference = 93764A585E22394F006512B9 /* Pods-Idamob.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

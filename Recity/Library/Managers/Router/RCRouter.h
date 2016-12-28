@@ -11,8 +11,8 @@
 @interface RCRouter : NSObject
 
 /**
- *  show RCWeaterViewController
+ *  show RCValutaViewController"
  */
-+ (void)showWeater;
++ (void)showValuta;
 
 @end
