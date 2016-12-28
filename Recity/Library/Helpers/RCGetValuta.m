@@ -26,7 +26,9 @@
     NSDictionary *dict = [[XMLDictionaryParser sharedInstance] dictionaryWithData:(NSData *)reply];
     NSArray *valutaDict = dict[@"Valute"];
     if (valutaDict.isFull) {
+        [RCValuta MR_truncateAll];
         NSArray *array = [RCValuta MR_importFromArray:valutaDict];
+        [[NSManagedObjectContext MR_defaultContext] MR_saveToPersistentStoreAndWait];
         [super apiDidReturnReply:array source:source];
     } else {
         [super apiDidReturnReply:nil source:source];

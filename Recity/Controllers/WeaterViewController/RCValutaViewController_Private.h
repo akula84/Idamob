@@ -9,9 +9,21 @@
 
 @interface RCValutaViewController ()
 
+@property (nonatomic, strong) NSFetchedResultsController *fetchedController;
 /**
  *  send to Server http://www.cbr.ru/scripts/XML_daily.asp with parameters
  */
-- (void)sendToServer;
+
+@end
+
+@interface RCValutaViewController (FetchedController) <NSFetchedResultsControllerDelegate>
+
+- (void)initFetch;
+
+@end
+
+@interface RCValutaViewController (TableView)
+
+- (void)reloadData;
 
 @end

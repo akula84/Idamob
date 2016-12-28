@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RCBaseModel (CoreDataProperties)
 
-@property (nullable, nonatomic, retain) NSNumber *uid;
+@property (nullable, nonatomic, retain) NSString *uid;
 
 @end
 

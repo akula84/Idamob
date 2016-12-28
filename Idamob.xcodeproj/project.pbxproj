@@ -40,6 +40,9 @@
 		836007B21E0B7FA100B3355E /* NSObject+SingletonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 836007B11E0B7FA100B3355E /* NSObject+SingletonObject.m */; };
 		836007B61E0B7FF100B3355E /* AppProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 836007B51E0B7FF100B3355E /* AppProtection.m */; };
 		838541981E0CCC7B0053A0FD /* CcsteamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 838541971E0CCC7B0053A0FD /* CcsteamTests.m */; };
+		83AB60E91E135E0B00C97F1A /* RCValutaViewController+Fetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AB60E81E135E0B00C97F1A /* RCValutaViewController+Fetch.m */; };
+		83AB60EC1E135FA300C97F1A /* RCValutaViewController+TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AB60EB1E135FA300C97F1A /* RCValutaViewController+TableView.m */; };
+		83AB611E1E13685F00C97F1A /* RCValuteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AB611D1E13685F00C97F1A /* RCValuteCell.m */; };
 		83C8423E1D0559150051B007 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C8423D1D0559150051B007 /* UIViewController+Utils.m */; };
 		842933A41CB681AE001198DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842933A31CB681AE001198DE /* main.m */; };
 		842933A71CB681AE001198DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842933A61CB681AE001198DE /* AppDelegate.m */; };
@@ -131,6 +134,10 @@
 		838541951E0CCC7B0053A0FD /* IdamobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdamobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		838541971E0CCC7B0053A0FD /* CcsteamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CcsteamTests.m; sourceTree = "<group>"; };
 		838541991E0CCC7B0053A0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AB60E81E135E0B00C97F1A /* RCValutaViewController+Fetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCValutaViewController+Fetch.m"; sourceTree = "<group>"; };
+		83AB60EB1E135FA300C97F1A /* RCValutaViewController+TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCValutaViewController+TableView.m"; sourceTree = "<group>"; };
+		83AB611C1E13685F00C97F1A /* RCValuteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCValuteCell.h; path = WeaterViewController/Cell/RCValuteCell.h; sourceTree = "<group>"; };
+		83AB611D1E13685F00C97F1A /* RCValuteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCValuteCell.m; path = WeaterViewController/Cell/RCValuteCell.m; sourceTree = "<group>"; };
 		83C8423C1D0559150051B007 /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
 		83C8423D1D0559150051B007 /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
 		8429339F1CB681AE001198DE /* Idamob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idamob.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,18 +208,18 @@
 		830769E21E0BDC7F00628E50 /* GET */ = {
 			isa = PBXGroup;
 			children = (
-				830769E31E0BDE0F00628E50 /* GetWeater */,
+				830769E31E0BDE0F00628E50 /* GetValuta */,
 			);
 			name = GET;
 			sourceTree = "<group>";
 		};
-		830769E31E0BDE0F00628E50 /* GetWeater */ = {
+		830769E31E0BDE0F00628E50 /* GetValuta */ = {
 			isa = PBXGroup;
 			children = (
 				830769E51E0BDE1B00628E50 /* RCGetValuta.h */,
 				830769E41E0BDE1B00628E50 /* RCGetValuta.m */,
 			);
-			name = GetWeater;
+			name = GetValuta;
 			sourceTree = "<group>";
 		};
 		832D1D7A1D081EF600E12FF1 /* API */ = {
@@ -294,9 +301,12 @@
 		833DAFA51E0BBF9900F335B6 /* ValutaViewController */ = {
 			isa = PBXGroup;
 			children = (
+				83AB60E61E135C9700C97F1A /* Cell */,
 				833DAFA61E0BC00A00F335B6 /* RCValutaViewController.h */,
 				833DAFA71E0BC00A00F335B6 /* RCValutaViewController.m */,
 				830769DA1E0BD0B800628E50 /* RCValutaViewController_Private.h */,
+				83AB60E81E135E0B00C97F1A /* RCValutaViewController+Fetch.m */,
+				83AB60EB1E135FA300C97F1A /* RCValutaViewController+TableView.m */,
 				833DAFA91E0BC0C300F335B6 /* RCValutaViewController.storyboard */,
 			);
 			name = ValutaViewController;
@@ -338,6 +348,15 @@
 				838541991E0CCC7B0053A0FD /* Info.plist */,
 			);
 			path = CcsteamTests;
+			sourceTree = "<group>";
+		};
+		83AB60E61E135C9700C97F1A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				83AB611C1E13685F00C97F1A /* RCValuteCell.h */,
+				83AB611D1E13685F00C97F1A /* RCValuteCell.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		83BB3A4A1CFBE4FC008F16FA /* Controllers */ = {
@@ -737,6 +756,7 @@
 				832D1D921D081F0B00E12FF1 /* API+ReplyHandling.m in Sources */,
 				832D1D901D081F0B00E12FF1 /* API+Creating.m in Sources */,
 				842933A41CB681AE001198DE /* main.m in Sources */,
+				83AB60E91E135E0B00C97F1A /* RCValutaViewController+Fetch.m in Sources */,
 				832D1DA41D081FD400E12FF1 /* AWMissedProperties.m in Sources */,
 				C72C53E11CC4C53D00916668 /* NSObject+ClassName.m in Sources */,
 				83C8423E1D0559150051B007 /* UIViewController+Utils.m in Sources */,
@@ -746,9 +766,11 @@
 				832D1D931D081F0B00E12FF1 /* API+RequestProgress.m in Sources */,
 				832D1DB51D081FDE00E12FF1 /* NSObject+BaseObjectParsing.m in Sources */,
 				832D1DB31D081FDE00E12FF1 /* AWModel+ObjectToDictionary.m in Sources */,
+				83AB60EC1E135FA300C97F1A /* RCValutaViewController+TableView.m in Sources */,
 				836007B21E0B7FA100B3355E /* NSObject+SingletonObject.m in Sources */,
 				84619DAD1CC7B7D500EEBE50 /* Reachability.m in Sources */,
 				834F0EA61E12A75A00106906 /* RCValuta+CoreDataProperties.m in Sources */,
+				83AB611E1E13685F00C97F1A /* RCValuteCell.m in Sources */,
 				832D1D991D081F0B00E12FF1 /* PaginationAPI.m in Sources */,
 				832D1D911D081F0B00E12FF1 /* API+File.m in Sources */,
 				832D1D971D081F0B00E12FF1 /* DeleteAPI.m in Sources */,

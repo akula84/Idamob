@@ -19,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    [self initFetch];
+    [self reloadData];
     [self sendToServer];
 }
 
@@ -28,7 +29,6 @@
     [RCGetValuta withCompletion:^(id reply, NSError *error, BOOL *handleError) {
         __strong __typeof__(weakSelf) strongSelf = weakSelf;
         [strongSelf.refreshControl endRefreshing];
-        NSLog(@"reply %@",reply)
     }];
 }
 
